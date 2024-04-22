@@ -1,0 +1,37 @@
+.completeDash{
+    background-image: url("../assets/mountain2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 92vh;
+    overflow-y: scroll;
+}
+
+.dash-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 70px;
+    padding: 70px;
+}
+
+.JoinHike,
+.CreateHike {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+    padding: 50px 100px;
+    color: #303030;
+    background-color: rgba(253, 251, 240, 0.836);
+    border-radius: 20px;
+    width: 70vw;
+}
+
+.JoinHike:hover,
+.CreateHike:hover {
+    background-color: #303030;
+    color:  rgb(254, 251, 231);;
+} 

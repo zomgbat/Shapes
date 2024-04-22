@@ -1,0 +1,69 @@
+/* ./src/styles/Navbar.css */
+
+/* Navbar container */
+.navBar {
+  background-color: #333;
+  /* Dark background color */
+  padding: 10px 20px;
+  /* Add padding to the navbar */
+}
+
+/* Navbar list */
+.nav-bar-ul {
+  list-style-type: none;
+  /* Remove default list styling */
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar list items */
+.nav-bar-ul li {
+  display: inline;
+  /* Display list items horizontally */
+  margin-right: 20px;
+  /* Add spacing between list items */
+}
+
+/* Navbar link styling */
+.nav-bar-ul li a {
+  color: #fff;
+  /* Text color */
+  text-decoration: none;
+  /* Remove underline from links */
+  padding: 10px 15px;
+  /* Add padding to links */
+  border-radius: 5px;
+  /* Rounded corners for links */
+  transition: background-color 0.3s ease;
+  /* Smooth transition for background color */
+}
+
+/* Navbar link hover effect */
+.nav-bar-ul li a:hover {
+  background-color: #555;
+  /* Darker background color on hover */
+}
+
+/* Button styling */
+.button {
+  background-color: #007bff;
+  /* Button background color */
+  color: #fff;
+  /* Button text color */
+  border: none;
+  /* Remove button border */
+  padding: 10px 20px;
+  /* Add padding to button */
+  border-radius: 5px;
+  /* Rounded corners for button */
+  cursor: pointer;
+  /* Show pointer cursor on hover */
+  transition: background-color 0.3s ease;
+  /* Smooth transition for background color */
+}
+
+/* Button hover effect */
+.button:hover {
+  background-color: #0056b3;
+  /* Darker background color on hover */
+}
