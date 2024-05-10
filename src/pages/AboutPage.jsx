@@ -1,16 +1,37 @@
 import React from 'react';
+import '../styles/AboutPage.css'; // Importing the CSS file
+
 
 function AboutPage() {
     return (
-        <section className="dark-background" id="general-information">
-            <article className="container">
+        <div className="container">
+            <header>
                 
-                <p className="text">
-                    The most fascinating stories on Earth. Our main aim is to deliver the most fascinating stories from around the world and beyond, along with illustrating how dark a place the past could be. The idea comes from the website Stories that Shocked the World – my previous employer. Some stories are taken from there but all are written by myself. It is important to consider that many of these stories show inhumanity. Although the website is for entertainment purposes, that is used in the sense of learning and sharing. We do not write these stories to make light of any person but to understand their lives. To never take for granted what we have, make the world a better place, and understand how easy it is to return to the darkness of the past.
-                </p>
-            </article>
-        </section>
+                <nav>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <section id="about">
+                    <h2>About</h2>
+                    <p>
+                        Some stories taken from ststworld (my old employer) – where the idea came from – but all stories written and researched by myself.
+                    </p>
+                </section>
+            </main>
+            <footer>
+                <p>Contact: <a href="https://instagram.com/zomgbat">instagram.com/zomgbat</a></p>
+                <img className="imagegav" src="https://ourshapes.wordpress.com/wp-content/uploads/2024/01/unnamed.jpg" alt="Our Shapes Logo" />
+            </footer>
+        </div>
+        
     );
 }
+
+
+
 
 export default AboutPage;

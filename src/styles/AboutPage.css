@@ -45,3 +45,10 @@
     border-radius: 20px;
     margin-bottom: 40px;
 }
+
+.imagegav {
+    max-width: 230px;
+    /* Adjust the value as needed */
+    height: auto;
+    /* This ensures the image maintains its aspect ratio */
+}

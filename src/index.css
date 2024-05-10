@@ -15,8 +15,8 @@ h1 {
     justify-content: center;
     font-family: "Bebas Neue", sans-serif;
     font-size: 40px;
-    padding-top: 260px;
-    color: rgb(254, 251, 231);
+    padding-top: 20px;
+    color: rgb(1, 1, 1);
 }
 
 h2 {
@@ -38,7 +38,7 @@ h3 {
     font-family: "Bebas Neue", sans-serif;
     font-size: 40px;
     padding-top: 20px;
-    color: rgb(254, 251, 231);
+    color: black
 }
 
 h4 {
@@ -48,7 +48,7 @@ h4 {
     justify-content: center;
     font-family: "Bebas Neue", sans-serif;
     font-size: 20px;
-    color: rgb(254, 251, 231);
+    color: black
 }
 
 h5 {

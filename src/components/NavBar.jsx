@@ -16,8 +16,8 @@ function Navbar() {
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/AboutPage">About</Link></li>
                 <li><Link to="/photos">Photos</Link></li>
-                <li><Link to="/LaikaPage">Laika</Link></li>
-                <Link className='city-link' to='/AboutPage'> About </Link>
+                
+                
             </ul>
         </nav>
     );

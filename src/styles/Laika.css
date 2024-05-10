@@ -1,0 +1,77 @@
+/* Laika.css */
+
+body {
+    
+    color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.l1 {
+    font-size: 2.5em;
+    color: black;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.author {
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+blockquote {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 20px 0;
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+}
+
+iframe[src*="youtube.com"] {
+    max-width: 100%;
+}
+
+/* Laika.css */
+
+/* Style for h1 element */
+h1 {
+    color: #000000;
+    /* Black color */
+}
