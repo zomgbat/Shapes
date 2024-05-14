@@ -2,6 +2,7 @@ import React from 'react';
 import '../styles/HomePage.css'; // Importing the CSS file
 import RandomQuoteGenerator from '../components/Quote';
 import Gallery from '../components/Gallery';
+import Footer from '../components/Footer';
 
 
 function HomePage() {
@@ -100,28 +101,11 @@ Some fantasy articles, (Mostly works from former employer GamersDecide.com) </p>
                 </section>
 
 
-          
-
-                <section className="dark-background" id="team">
-                    <h3> Team </h3>
-                    <p className="section-text"> Our team collectively has 75 years of experience. Odds are, when you jump out of the plane with these professionals, you won't go splat. </p>
-                    <hr />
-                    <div>
-                        <article>
-                            <h4 className="member-name"> Harold Rothstein </h4>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/xuCn8ux2gbs" frameborder="0" allowfullscreen></iframe>
-                        </article>
-                        <article>
-                            <h4 className="member-name"> Susan Phillips </h4>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/G1p6rlDCxq0" frameborder="0" allowfullscreen></iframe>
-                        </article>
-                    </div>
-                </section>
                 <Gallery /> {/* Include the RandomQuoteGenerator component here */}
 
 
                 <section className="container" id="schedule">
-                    <h3> Schedule </h3>
+                    <h3> Current New Story Schedule </h3>
                     <table className="schedule-table" cellPadding="0" cellSpacing="0">
                         <thead>
                             <tr>
@@ -132,40 +116,44 @@ Some fantasy articles, (Mostly works from former employer GamersDecide.com) </p>
                                 <th> Thursday </th>
                                 <th> Friday </th>
                                 <th> Saturday </th>
+                                <th> Sunday </th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td> 9:00 - 11:00 </td>
+                                <td> 07:00 - 12:00 </td>
                                 <td> </td>
                                 <td> </td>
-                                <td> X </td>
                                 <td> </td>
-                                <td> X </td>
-                                <td> X </td>
+                                <td> </td>
+                                <td> </td>
+                                <td> </td>
+                                <td> </td>
                             </tr>
                             <tr>
-                                <td> 12:00 - 14:00 </td>
+                                <td> 12:00 - 18:00 </td>
                                 <td> </td>
                                 <td> </td>
                                 <td> </td>
                                 <td> </td>
-                                <td> X </td>
-                                <td> X </td>
+                                <td> </td>
+                                <td> </td>
+                                <td> </td>
                             </tr>
                             <tr>
-                                <td> 15:00 - 17:00 </td>
+                                <td> 18:00 - 00:00 </td>
                                 <td> </td>
                                 <td> </td>
-                                <td> X </td>
-                                <td> X </td>
-                                <td> X </td>
-                                <td> X </td>
+                                <td> </td>
+                                <td> </td>
+                                <td> </td>
+                                <td> </td>
+                                <td> </td>
                             </tr>
                         </tbody>
                     </table>
 
-                    <h3> Schedule a Time Slot </h3>
+                    <h3> Request a Story </h3>
                     <form className="slot-form" action="/register" method="post">
                         <div className="slot-form-container">
                             <label> Email </label>
@@ -173,9 +161,15 @@ Some fantasy articles, (Mostly works from former employer GamersDecide.com) </p>
                         </div>
 
                         <div className="slot-form-container">
-                            <label> Participants </label>
-                            <input type="Number" placeholder="Number of participants" />
+                            <label> Your Name </label>
+                            <input type="text" placeholder="Enter your story" />
                         </div>
+
+                        <div className="slot-form-container">
+                            <label>Story</label>
+                            <input type="text" placeholder="Enter your story" />
+                        </div>
+
 
                         <div className="slot-form-container">
                             <label> Date </label>
@@ -183,36 +177,22 @@ Some fantasy articles, (Mostly works from former employer GamersDecide.com) </p>
                         </div>
 
                         <div className="slot-form-container">
-                            <label> Time </label>
+                            <label> Type </label>
                             <select>
-                                <option value="early"> 9:00 - 11:00 </option>
-                                <option value="mid"> 12:00 - 14:00 </option>
-                                <option value="late"> 15:00 - 17:00 </option>
+                                <option value="early"> You want to write </option>
+                                <option value="mid"> You want us to write </option>
+                                <option value="late"> You want someone else to write </option>
                             </select>
                         </div>
 
                         <div className="slot-form-container">
-                            <button type="submit"> Reserve Your Slot! </button>
+                            <button type="submit"> Send! </button>
                         </div>
                     </form>
                 </section>
+                
 
-                <footer className="dark-background footer">
-                    <div className="container">
-                        <p>&copy; 2024 MyWebsite. All rights reserved.</p>
-                    </div>
-                    <section>
-                        <h5> Contact Information </h5>
-                        <address className="address">IronSkydive <br /> 226 Boulevard Voltaire, <br /> 75011 Paris, <br /> France <br /> +33 1 79 75 40 00</address>
-                        <h5> Follow Us </h5>
-                        <ul>
-                            <li><a href="#"> Twitter </a></li>
-                            <li><a href="#"> Facebook </a></li>
-                            <li><a href="#"> Instagram </a></li>
-                        </ul>
-                    </section>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.142047744348!2d2.3354330160472316!3d48.87456857928921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e38f817b573%3A0x48d69c30470e7aeb!2sIronhack!5e0!3m2!1sen!2ses!4v1495208746099" className="map-frame" frameBorder="0" style={{ border: 0 }} allowFullScreen />
-                </footer>
+                <Footer></Footer>
             </body>
         </html>
     );
