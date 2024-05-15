@@ -25,7 +25,7 @@ function HomePage() {
                     <button>Search</button>
                 </div>
                 <header className="header">
-                    <h1><img className="i1" src="https://ourshapes.files.wordpress.com/2023/02/whatsapp-image-2023-02-02-at-20.15.57.jpeg" alt="IronSkydive Logo" /> Shapes </h1>
+                    <h1><img className="i1" src="https://ourshapes.files.wordpress.com/2023/02/whatsapp-image-2023-02-02-at-20.15.57.jpeg" alt="Shapes" /> Shapes </h1>
                     <br />
                     <h2></h2>
                     <aside className="quote">
@@ -33,13 +33,14 @@ function HomePage() {
                         <br />
                         <br />
                         <br />
-                        <p className="p1"> <i> “A people without knowledge of their past history, origin and culture is like a tree without roots...’”</i> - MARCUS GARVEY (JAMAICAN ACTIVIST) </p>
+                        <p className="p1"> <i> “A people without knowledge of their past history, origin and culture is like a tree without roots...’”</i></p> 
+                           <p>- MARCUS GARVEY (JAMAICAN ACTIVIST) <br></br></p>
                         <RandomQuoteGenerator /> {/* Include the RandomQuoteGenerator component here */}
  </aside>
                     
                 </header>
 
-                <section className="container" id="structure">
+                <section>
                 
                     
                     <div className="article-container">
@@ -138,7 +139,7 @@ Some fantasy articles, (Mostly works from former employer GamersDecide.com) </p>
                                 <td> </td>
                                 <td> </td>
                                 <td> </td>
-                                <td> </td>
+                                <td> X </td>
                             </tr>
                             <tr>
                                 <td> 18:00 - 00:00 </td>

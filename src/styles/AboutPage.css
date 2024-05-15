@@ -1,54 +1,35 @@
-.about-box{
-    background-image: url("../assets/mountain5.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    overflow-y: scroll;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content:center
+.container {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
 }
 
-.about-text{
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 13px;
-    color: rgb(254, 251, 231);
+.section-box {
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
-.home3 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    height: 50vh;
-    width: 100%;
+.yellow-border {
+    border-color: yellow;
 }
 
-.generalDiv {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 40px 0px;
+.footer {
+    text-align: center;
+    margin-top: 50px;
 }
 
-.barbiPhoto, .kumPhoto, .gavPhoto {
-    height: 33vh;
-    padding: 10px 10px;
-    
-}
-
-.groupPhoto{
-    margin-top: 500px;
-    width: 90vw;
-    border-radius: 20px;
-    margin-bottom: 40px;
+.footer p {
+    margin-bottom: 10px;
 }
 
 .imagegav {
-    max-width: 230px;
-    /* Adjust the value as needed */
+    width: 200px;
     height: auto;
-    /* This ensures the image maintains its aspect ratio */
+    border-radius: 50%;
+}
+
+.pabout {
+    font-size: 20px;
 }
