@@ -181,41 +181,43 @@ function HomePage() {
                     </table>
 
                     <h3> Request a Story </h3>
-                    <form className="slot-form" action="/register" method="post">
+                    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+                        <input type="hidden" name="form-name" value="contact" />
+
                         <div className="slot-form-container">
-                            <label> Email </label>
-                            <input type="email" placeholder="Enter your email" />
+                            <label>Email</label>
+                            <input type="email" name="email" placeholder="Enter your email" required />
                         </div>
 
                         <div className="slot-form-container">
-                            <label> Your Name </label>
-                            <input type="text" placeholder="Enter your story" />
+                            <label>Your Name</label>
+                            <input type="text" name="name" placeholder="Enter your name" required />
                         </div>
 
                         <div className="slot-form-container">
                             <label>Story</label>
-                            <input type="text" placeholder="Enter your story" />
-                        </div>
-
-
-                        <div className="slot-form-container">
-                            <label> Date </label>
-                            <input type="date" />
+                            <input type="text" name="story" placeholder="Enter your story" required />
                         </div>
 
                         <div className="slot-form-container">
-                            <label> Type </label>
-                            <select>
-                                <option value="early"> You want to write </option>
-                                <option value="mid"> You want us to write </option>
-                                <option value="late"> You want someone else to write </option>
+                            <label>Date</label>
+                            <input type="date" name="date" required />
+                        </div>
+
+                        <div className="slot-form-container">
+                            <label>Type</label>
+                            <select name="type" required>
+                                <option value="early">You want to write</option>
+                                <option value="mid">You want us to write</option>
+                                <option value="late">You want someone else to write</option>
                             </select>
                         </div>
 
                         <div className="slot-form-container">
-                            <button type="submit"> Send! </button>
+                            <button type="submit">Send!</button>
                         </div>
                     </form>
+
                 </section>
                 <div class="frontlogos">
                     <a href="https://vitejs.dev" target="_blank">
