@@ -11,7 +11,7 @@ body {
 .container {
     max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px;
 }
 
 button {
@@ -32,14 +32,6 @@ button:hover {
     color: black;
 }
 
-h2 {
-    font-size: 1.8em;
-}
-
-p {
-    font-size: 1.1em;
-    line-height: 1.6;
-}
 
 .author {
     font-size: 0.8em;
@@ -57,6 +49,8 @@ blockquote {
     color: #fff;
     padding: 10px 20px;
     margin: 20px 0;
+    color: rgb(98, 11, 11);
+    font-size: 15px;
 }
 
 iframe {
@@ -68,10 +62,17 @@ iframe[src*="youtube.com"] {
     max-width: 100%;
 }
 
-/* Laika.css */
 
-/* Style for h1 element */
-h1 {
-    color: #000000;
-    /* Black color */
-}
+img.Laika1 {
+    
+            max-width: 100%;
+            height: auto;
+            display: inline-block;
+            margin-right: 10px;
+            vertical-align: middle;
+            border: 5px solid #ccc;
+            border-radius: 15px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
+        }
+
+

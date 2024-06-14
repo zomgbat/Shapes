@@ -4,8 +4,18 @@
     box-sizing: border-box;
 }
 
+.header {
+
+    height: 900px;
+}
+
 button {
     border: none;
+}
+
+p {
+    font-size: 1.5em;
+    line-height: 1.1;
 }
 
 h1 {
@@ -56,8 +66,8 @@ h5 {
     align-items: center;
     justify-content: center;
     font-family: "Bebas Neue", sans-serif;
-    color: #303030;
-    font-size: 20px;
+    color: #600971;
+    font-size: 15px;
 }
 
 h6 {
@@ -70,7 +80,6 @@ h6 {
     background-color: #303030;
     padding: 10px;
 }
-
 
 
 .label2 {

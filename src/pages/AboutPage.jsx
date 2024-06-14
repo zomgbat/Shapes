@@ -13,7 +13,7 @@ function AboutPage() {
                 </section>
             </main>
             <footer className="footer">
-                <p>Contact: <a href="https://instagram.com/zomgbat">instagram.com/zomgbat</a></p>
+                <p>Contact: <a href="https://instagram.com/zomgbat">github.com/zomgbat</a></p>
                 <img className="imagegav" src="https://ourshapes.wordpress.com/wp-content/uploads/2024/01/unnamed.jpg" alt="Our Shapes Logo" />
             </footer>
         </div>

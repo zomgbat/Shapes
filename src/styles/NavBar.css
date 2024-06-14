@@ -6,6 +6,8 @@
   /* Dark background color */
   padding: 10px 20px;
   /* Add padding to the navbar */
+    display: flex;
+      justify-content: center;
 }
 
 /* Navbar list */
@@ -14,12 +16,16 @@
   /* Remove default list styling */
   margin: 0;
   padding: 0;
+  display: flex;
+  /* Use flexbox for layout */
+  flex-wrap: wrap;
+  /* Allow items to wrap to the next line */
 }
 
 /* Navbar list items */
 .nav-bar-ul li {
-  display: inline;
-  /* Display list items horizontally */
+  display: inline-block;
+  /* Display list items inline-block */
   margin-right: 20px;
   /* Add spacing between list items */
 }
@@ -66,4 +72,41 @@
 .button:hover {
   background-color: #0056b3;
   /* Darker background color on hover */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .navBar {
+    padding: 10px;
+    /* Reduce padding for smaller screens */
+  }
+
+  .nav-bar-ul li {
+    margin-right: 10px;
+    /* Reduce spacing between list items */
+  }
+
+  .nav-bar-ul li a {
+    padding: 8px 10px;
+    /* Reduce padding for links */
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-bar-ul {
+    flex-direction: column;
+    /* Stack items vertically on very small screens */
+    align-items: center;
+  }
+
+  .nav-bar-ul li {
+    margin-right: 0;
+    margin-bottom: 10px;
+    /* Add bottom margin instead of right margin */
+  }
+
+  .nav-bar-ul li a {
+    padding: 8px 15px;
+    /* Adjust padding for links */
+  }
 }

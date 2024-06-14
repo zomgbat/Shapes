@@ -3,8 +3,6 @@
     color: #fff;
 }
 
-
-
 .address {
     font-style: normal;
 }
@@ -18,11 +16,14 @@
     margin-right: 10px;
 }
 
-
-
 .footer-container {
     width: 100%;
     overflow-x: auto;
+}
+
+.container {
+
+    
 }
 
 .footer {
@@ -39,7 +40,7 @@
 
 .map-container {
     width: 100%;
-    overflow: hidden;
+    overflow-x: auto;
 }
 
 .map-frame {

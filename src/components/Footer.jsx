@@ -8,12 +8,11 @@ function Footer() {
 
             
             <footer className="dark-background footer">
-                <div className="container">
-                    <p>&copy; 2024 MyWebsite. All rights reserved.</p>
-                </div>
+                
                 <section className="footer-section">
                     <h5>Contact Information</h5>
                     <address className="address"> gavalex7@aol.com </address>
+                   
                     <h5>Follow Us</h5>
                     <ul className="social-links">
                         
@@ -23,10 +22,12 @@ function Footer() {
                         <li><a href="https://www.github.com/zomgbat">GitHub</a></li>
                     </ul>
                 </section>
+                
               
                     <MapComponent></MapComponent>
                 
             </footer>
+            <p>&copy; 2024 MyWebsite. All rights reserved.</p>
         </div>
     );
 }
