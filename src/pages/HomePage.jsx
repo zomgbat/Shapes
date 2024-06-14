@@ -11,7 +11,7 @@ import '../styles/App.css'
 function HomePage() {
     const [count, setCount] = useState(0)
    
-    const [catImage, setCatImage] = useState('src/assets/cat.jpeg');
+    const [catImage, setCatImage] = useState('https://ourshapes.wordpress.com/wp-content/uploads/2023/02/whatsapp-image-2023-02-02-at-20.15.57.jpeg');
 
     const changeImage = () => {
         setCatImage('https://www.mercurynews.com/wp-content/uploads/2019/06/ODIN1.jpg?w=1024');
