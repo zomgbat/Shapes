@@ -7,7 +7,7 @@ function AllStories() {
         
         <ul>
             <br></br>
-            <li>COMING SOON....</li>
+            <li><b>COMING SOON...</b></li>
             <li>1972 Andes Plane Crash- The Descent to Cannibalism</li>
             <li>Japan’s Declining Population: A Historic Country with a Problematic Future</li>
             <li>The Great Fire of London: The Blaze That Destroyed 80% of England’s Capital</li>
