@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* Default styling for .header */
 .header {
     background-color: bisque;
     background-position: 0 0;
@@ -16,7 +17,32 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-   
+    width: 100%;
+    /* Ensure the header takes full width by default */
+}
+
+/* Small devices (phones, 600px and below) */
+@media (max-width: 600px) {
+    .header {
+        width: 100%;
+        /* Full width for small devices */
+    }
+}
+
+/* Medium devices (tablets, 601px to 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .header {
+        width: 90%;
+        /* Slightly narrower for medium devices */
+    }
+}
+
+/* Large devices (desktops, 1025px and above) */
+@media (min-width: 1025px) {
+    .header {
+        width: 80%;
+        /* Narrower for large devices */
+    }
 }
 
 button {

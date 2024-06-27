@@ -352,9 +352,12 @@ select {
     h3 {
         font-size: 1.3em;
     }
+                h1 {
+                    font-size: 1.3em;
+                }
 
     .text {
-        font-size: 0.9em;
+        font-size: 1.4em;
     }
 
     .link-btn {
@@ -370,9 +373,11 @@ select {
     h3 {
         font-size: 1.1em;
     }
-
+ h1 {
+     font-size: 1.3em;
+ }
     .text {
-        font-size: 0.8em;
+        font-size: 1.3em;
     }
 
     .link-btn {
