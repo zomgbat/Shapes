@@ -343,34 +343,40 @@ select {
 }
 
 /* Media queries for different screen sizes */
-@media (max-width: 1200px) {
-    .image1 {
-        width: 350px;
-    }
-}
-
-@media (max-width: 992px) {
-    .image1 {
-        width: 300px;
-    }
-}
-
+/* Media Queries */
 @media (max-width: 768px) {
-    .image1 {
-        width: 250px;
+    .container {
+        padding: 10px;
+    }
+
+    h3 {
+        font-size: 1.3em;
+    }
+
+    .text {
+        font-size: 0.9em;
+    }
+
+    .link-btn {
+        padding: 8px 16px;
     }
 }
 
-@media (max-width: 576px) {
-    .image1 {
-        width: 200px;
+@media (max-width: 480px) {
+    .container {
+        padding: 5px;
     }
-}
 
-@media (max-width: 400px) {
-    .image1 {
-        width: 100%;
-        margin-right: 0;
+    h3 {
+        font-size: 1.1em;
+    }
+
+    .text {
+        font-size: 0.8em;
+    }
+
+    .link-btn {
+        padding: 6px 12px;
     }
 }
 

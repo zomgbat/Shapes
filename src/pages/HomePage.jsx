@@ -33,10 +33,10 @@ function HomePage() {
 
                     
                 </div>
+               
                 <header className="header">
-                    <h1> <img src={catImage} id="dynamic-cat" className="image1" alt="Cat Image" onClick={changeImage} />
-
-     Shapes </h1>
+                    <h1>SHAPES</h1>
+                    <h1> <img src={catImage} id="dynamic-cat" className="image1" alt="Cat Image" onClick={changeImage} /> </h1>
                     <br />
                     <h2></h2>
                     <aside className="quote">
