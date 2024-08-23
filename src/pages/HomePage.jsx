@@ -16,6 +16,37 @@ function HomePage() {
     const changeImage = () => {
         setCatImage('https://www.mercurynews.com/wp-content/uploads/2019/06/ODIN1.jpg?w=1024');
     };
+
+
+    const CoolDynamicButton = () => {
+        const [hovered, setHovered] = useState(false);
+
+        const buttonStyle = {
+            padding: '15px 30px',
+            fontSize: '18px',
+            fontWeight: 'bold',
+            color: hovered ? '#ffffff' : '#333333',
+            backgroundColor: hovered ? '#333333' : '#ffffff',
+            border: '2px solid #333333',
+            borderRadius: '8px',
+            cursor: 'pointer',
+            transition: 'all 0.3s ease',
+            textDecoration: 'none',
+            display: 'inline-block',
+            marginTop: '20px', // Added margin-top for spacing
+        };
+
+        return (
+            <a
+                href="https://zomgbat.github.io/Game-Project/"
+                style={buttonStyle}
+                onMouseEnter={() => setHovered(true)}
+                onMouseLeave={() => setHovered(false)}
+            >
+                My First Homemade Video Game!
+            </a>
+        );
+    };
    
     return (
         <html>
@@ -122,6 +153,7 @@ function HomePage() {
 <br></br>
                          Must see videos- Mostly from Youtube such as the ‘History of the World’ from Bill Wurtz and ‘Epic History’ below. Some fantasy articles, (Mostly works from former employer GamersDecide.com) </p>
                         <a className="link-btn" href="https://www.coursera.org/"> Coursera </a>
+                        <CoolDynamicButton />
                     </article>
 
                    
@@ -229,7 +261,12 @@ function HomePage() {
 
                     <p>Made with Vite + React .</p>
 
+                    
+
                 </div>
+
+
+                 
                 <button onClick={() => setCount((count) => count + 1)}>
                     count is {count}
                 </button>
