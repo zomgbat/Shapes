@@ -1,0 +1,35 @@
+.container {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.section-box {
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.yellow-border {
+    border-color: yellow;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.imagegav {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.pabout {
+    font-size: 20px;
+}

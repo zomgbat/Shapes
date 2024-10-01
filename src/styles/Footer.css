@@ -1,0 +1,54 @@
+.dark-background {
+    background-color: wheat;
+    color: #fff;
+}
+
+.address {
+    font-style: normal;
+}
+
+.social-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-links li {
+    margin-right: 10px;
+}
+
+.footer-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.container {
+
+    
+}
+
+.footer {
+    width: 100%;
+    padding: 20px;
+}
+
+.container {
+    color: black;
+    max-width: 800px;
+    /* Adjust as needed */
+    margin: 0 auto;
+}
+
+.map-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.map-frame {
+    width: 100%;
+    height: 200px;
+    border: none;
+}
+
+.footer-section {
+    margin: 30px;
+}

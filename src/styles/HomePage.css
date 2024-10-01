@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+
+.quotebutton {
+margin-top: 20px;
+    background-color: black;
+}
+
+
+.article-container {
+    display: flex;
+    flex-wrap: wrap;
+    color: wheat;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.service-box {
+    background-color: bisque;
+    /* White background */
+    border: 2px solid #ccc;
+    /* Light gray border */
+    border-radius: 10px;
+    /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Light shadow for depth */
+    overflow: hidden;
+    /* Ensure content fits within the card */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Smooth transitions */
+    max-width: 250px;
+    /* Max width for each card */
+    text-align: center;
+    /* Center text inside cards */
+    padding: 15px;
+    /* Padding inside cards */
+}
+
+article..service-box {
+
+}
+
+.service-box img {
+    width: 100%;
+    /* Full width of card */
+    height: auto;
+    /* Maintain aspect ratio */
+    border-bottom: 2px solid #ccc;
+    /* Bottom border for image */
+    margin-bottom: 10px;
+    /* Space between image and text */
+}
+
+.service-box:hover {
+    transform: scale(1.05);
+    /* Slightly enlarge on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    /* Darker shadow on hover */
+}
+
+/* Heading styling within cards */
+.service-box h4 {
+    margin: 10px 0 5px;
+    /* Margin around heading */
+    font-size: 1.2em;
+    /* Larger font size */
+    color: #333;
+    /* Dark gray color */
+}
+
+/* Paragraph styling within cards */
+.service-box p {
+    font-size: 0.9em;
+    /* Slightly smaller font size */
+    color: #666;
+    /* Medium gray color */
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 5px;
+    width: 300px;
+    /* Adjust width as needed */
+}
+
+.search-bar button {
+
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #0056b3;
+    /* Darker blue on hover */
+}
+/* Blue rgb(67, 163, 230); Dark Blue rgb(25, 33, 41); Text rgb(0, 0, 0); */
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto";
+    font-size: 10px;
+    line-height: 3.5em;
+    font-weight: 300;
+}
+
+.nav-bar {
+    background-color: rgb(25, 33, 41);
+    padding: 14px 0;
+}
+
+.nav-bar a {
+    font-size: 2em;
+    text-decoration: none;
+    color: white;
+}
+
+/*.header {
+    background-color: bisque;
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1500px;
+    padding-top: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+} */
+
+.quote {
+    margin-top: -250px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.quote p {
+    margin-top: 20px;
+}
+
+.dark-background {
+    background-color: rgb(25, 33, 41);
+    color: white;
+}
+
+.text {
+    color: black;
+    font-size: 2em;
+    font-weight: 100;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.link-btn {
+    background-color: rgb(67, 163, 230);
+    color: white;
+    font-family: "Roboto Condensed";
+    font-size: 2em;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+
+.service-box {
+    color: black;
+    font-size: 1.7em;
+    text-align: center;
+    border: 2px solid #EEE;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 10px 0 #EEE;
+    margin: 50px 5% 0 5%;
+    padding: 20px;
+    width: 40%;
+}
+
+.service-box a h4 {
+    color: black;
+}
+
+
+.footer {
+    font-size: 1.9em;
+    text-align: center;
+    padding: 40px 100px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.address {
+    font-size: 0.8em;
+    font-style: normal;
+    margin-bottom: 30px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer a {
+    color: rgb(67, 163, 230);
+    text-decoration: none;
+}
+
+.container {
+    max-height: 100%;
+    /* or any other height you prefer */
+    overflow-y: auto;
+    /* enables vertical scrolling */
+    overflow-x: auto;
+    /* enables horizontal scrolling if needed */
+}
+
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    /* ensures the table borders collapse into a single border */
+}
+
+.schedule-table th,
+.schedule-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    /* adds a border to the table cells */
+    text-align: left;
+    /* aligns text to the left */
+}
+
+.schedule-table th {
+    background-color: #f4f4f4;
+    /* adds a background color to the table headers */
+}
+
+#general-information {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#general-information .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
+}
+
+#structure>div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#team>div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#team>div>article {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.map-frame {
+    height: 375px;
+    width: 60%;
+}
+
+.slot-form-container {
+    width: 40%;
+    margin: 18px auto 0 auto;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.slot-form-container label {
+    line-height: 15px;
+    margin: 5px;
+}
+
+.slot-form-container input,
+select {
+    height: 20px;
+    outline: none;
+    padding: 3px;
+    width: 100%;
+}
+
+.slot-form-container button {
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.image1 {
+    width: 400px;
+    height: auto;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+    border: 5px solid #ccc;
+    /* Cool border */
+    border-radius: 15px;
+    /* Rounded corners */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Smooth transition effects */
+}
+
+.image1:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    filter: invert(100%);
+}
+
+/* Media queries for different screen sizes */
+/* Media Queries */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    h3 {
+        font-size: 1.3em;
+    }
+                h1 {
+                    font-size: 1.3em;
+                }
+
+    .text {
+        font-size: 1.4em;
+    }
+
+    .link-btn {
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 5px;
+    }
+
+    h3 {
+        font-size: 1.1em;
+    }
+ h1 {
+     font-size: 1.3em;
+ }
+    .text {
+        font-size: 1.3em;
+    }
+
+    .link-btn {
+        padding: 6px 12px;
+    }
+}
+
+.frontlogos {
+
+    display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+}
+
+.two {
+    width: 800px;
+}
+
